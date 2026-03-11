@@ -1,0 +1,9 @@
+.sidePanel {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  background: #0a0a0a;
+}
+
+.sidePanelContent {
+  transition: all 0.3s ease-in-out;
+  margin-top: 0;
+}

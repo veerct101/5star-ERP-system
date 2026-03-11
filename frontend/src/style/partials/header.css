@@ -1,0 +1,47 @@
+.notification::-webkit-scrollbar {
+  width: 4px;
+  height: 60px;
+}
+
+.notification::-webkit-scrollbar-thumb {
+  background: #f0ae77;
+  border-radius: 4px;
+}
+
+.headerIcon {
+  position: relative;
+}
+
+.headerIcon.ant-avatar {
+  float: right;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #f0ae77;
+  background: transparent;
+}
+
+.headerIcon.ant-avatar :hover {
+  background: rgba(240, 174, 119, 0.08);
+  box-shadow: 0px 0px 10px 4px rgba(240, 174, 119, 0.2);
+  cursor: pointer;
+}
+
+.headerIcon .last {
+  margin-right: 30px;
+}
+
+.profileDropdown {
+  display: flex;
+  min-width: 200px;
+}
+
+.profileDropdownInfo {
+  float: left;
+  display: inline;
+  padding-left: 15px;
+}
+
+.profileDropdownInfo p {
+  margin: 0;
+  color: #e0e0e0;
+}
